@@ -142,9 +142,7 @@ for i in range(0, len(hexa)):
 # Saídas
 # 8º passo: printar na tela os resultados - Sinal | Expoente | Mantissa | Gabarito | Hexadecimal
 print('\nResultados - Precisão simples 32 bits\n\t Valor decimal inserido: ', aux)
-print('\nBit', (precisao - 1), '\t\tBit', (precisao - 2), '-',
-      (precisao - 9), '\t\t\t\tBit', (precisao - 10), '-', 0)
-print('Sinal:', sinal, '\tExpoente:', ' '.join(map(str, expoente)),
-      '\tMantissa:', ' '.join(map(str, mantissa)))
+print('\nBit', (precisao - 1), '\t\tBit', (precisao - 2), '-', (precisao - 9), '\t\t\t\tBit', (precisao - 10), '-', 0)
+print('Sinal:', sinal, '\tExpoente:', ' '.join(map(str, expoente)), '\tMantissa:', ' '.join(map(str, mantissa)))
 print('\nGabarito:', ' '.join(map(str, gabarito)))
 print('Hexadecimal:', ' '.join(map(str, hexa)))
